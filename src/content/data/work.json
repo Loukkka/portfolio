@@ -1,0 +1,29 @@
+
+[
+  {
+    "id": 1,
+    "workname": "Projet 1",
+    "competance": ["Tomato Sauce", "Mozzarella Cheese", "Basil"],
+    "photoback": "",
+    "photofront": ""
+  },
+  {
+    "id": 2,
+    "workname": "Projet 1",
+    "competance": ["Tomato Sauce", "Mozzarella Cheese", "Pepperoni"],
+    "photoback": "",
+    "photofront": ""
+    
+  },
+  {
+    "id": 3,
+    "workname": "Projet 1",
+    "competance": ["Tomato Sauce", "Mozzarella Cheese", "Ham", "Pineapple"],
+    "photoback": "",
+    "photofront": ""
+  }
+  
+]
+
+
+

@@ -1,0 +1,35 @@
+---
+import BasicLayout from '../../layouts/BasicLayout.astro';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<BasicLayout>
+	<section class="mt-15 flex justify-center flex-col">
+		<div class="flex justify-center m-16">
+		<h1 class=" flex text-3xl text-center  text-amber-50 font-semibold "> Voici mes projets sur lesquels j'ai travaillé :
+		</div>
+			<ul class="flex justify-center flex-wrap gap-10">
+				{
+					posts.map((post) => (
+						<li class=" drop-shadow-xs w-120 h-110 rounded-lg mb-10  text-amber-50 font-semibold transition hover:scale-110 bg-zinc-900">
+							<a href={`/blog/${post.id}/`}>
+								<img class="object-cover transition opacity-70 hover:opacity-100 w-5/5 h-3/4 rounded-t-lg" src={post.data.heroImage} alt="" />
+								<h4 class="title mx-2 m-1">{post.data.title}</h4>
+								<p class="date mx-2 font-normal">
+									<FormattedDate date={post.data.pubDate} />
+								</p>
+								<p class="mx-2 font-light">{post.data.description}</p>
+								{/* <p>{post.data.auteur}</p> */}
+
+							</a>
+						</li>
+					))
+				}
+			</ul>
+	</section>	
+</BasicLayout>

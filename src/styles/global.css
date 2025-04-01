@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+    body {
+        background-color: #18181b;
+        color: white; 
+    }
+
+    .prose {
+        @apply max-w-[65ch] mx-auto;
+
+        h1, h2, h3 {
+            @apply text-[#0092B8] font-bold no-underline;
+        }
+
+        p, li {
+            @apply text-lg text-white;
+        }
+
+        img {
+            @apply border-4 border-blue-500;
+        }
+        strong, b {
+            @apply font-bold; 
+            color: inherit; 
+        }
+    }
+}
+
+@theme {
+    --drop-shadow-xs: 0px 0px 5px rgba(14,160,185,0.8);
+}
