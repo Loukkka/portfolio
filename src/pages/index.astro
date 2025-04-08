@@ -4,14 +4,97 @@ import BasicLayout from "../layouts/BasicLayout.astro";
 ---
 
 <BasicLayout>
-  <div class="justify-center h-100 mt-12 mx-8">
-    <div class="gap-52">
-    <h1 class=" flex text-2xl justify-center  text-amber-50 font-semibold text-center x"> Voici mon portfotio :
-    </h1>
-    </div>
+  <main class="max-w-4xl mx-auto p-6 mt-10 flex flex-col items-center">
+    <!-- Section Hero avec texte principal -->
+    <section class="text-center mb-12">
+      <h1 class="text-4xl font-extrabold text-white">Bienvenue sur mon Portfolio</h1>
+      <p class="mt-4 text-lg text-gray-300 max-w-2xl">
+        Je suis un étudiant passionné par l'univers numérique, avec un focus particulier sur le développement web, le design interactif et les nouvelles technologies.
+      </p>
+    </section>
+
+    <!-- Section Présentation -->
+    <section class="text-center mb-12">
+      <h2 class="text-3xl font-semibold text-white mt-20">À propos de moi</h2>
+      <p class="mt-4 text-lg text-gray-300 max-w-2xl">
+        Je suis actuellement en première année de BUT Métiers du Multimédia et de l'Internet. Ma passion pour la création numérique me pousse à constamment apprendre et à explorer de nouvelles façons de développer des expériences digitales interactives.
+      </p>
+    </section>
     
-    </div>
-    </div>
+    <!-- Parcours scolaire -->
+    <section class="text-center mb-12">
+      <h2 class="text-3xl font-semibold text-white mt-20">Mon Parcours Scolaire</h2>
+      <div class="flex items-center justify-center mt-6 gap-10 relative">
+        <!-- Bac STI2D -->
+        <div class="flex flex-col items-center text-white">
+          <div class="w-40 h-40 bg-gray-200 rounded-full flex items-center justify-center">
+            <img src="/sti2d.png" alt="STI2D" class="w-24">
+          </div>
+          <p class="mt-4 text-lg font-semibold">Bac STI2D</p>
+          <p class="text-gray-400">2 années</p>
+          <p class="text-green-400">Acquis</p>
+        </div>
+        
+        <!-- Flèche améliorée -->
+        <div class="w-16 h-16 relative">
+          <div class="w-8 h-8 border-t-2 border-r-2 border-white rotate-45 absolute top-[-8px] right-[25px]"></div>
+        </div>
+        
+        <!-- BUT MMI -->
+        <div class="flex flex-col items-center text-white">
+          <div class="w-40 h-40 bg-gray-200 rounded-full flex items-center justify-center">
+            <img src="/mmi-logo.png" alt="BUT MMI" class="w-24">
+          </div>
+          <p class="mt-4 text-lg font-semibold">BUT MMI</p>
+          <p class="text-gray-400">3 années</p>
+          <p class="text-yellow-400">En cours...</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- Centres d'intérêt -->
+    <section class="text-center mb-12">
+      <h2 class="text-3xl font-semibold text-white mt-20">Mes Centres d'Intérêt</h2>
+      <div class="flex justify-center gap-10 mt-6 text-white">
+        <div class="flex flex-col items-center">
+          <div class="text-4xl">🎮</div>
+          <p class="mt-2">Jeux Vidéo</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="text-4xl">💻</div>
+          <p class="mt-2">Développement Web</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="text-4xl">🎨</div>
+          <p class="mt-2">Design Graphique</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="text-4xl">⚽</div>
+          <p class="mt-2">Football</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- Nouvelle Section : Projets en cours -->
+    <section class="text-center mb-12">
+      <h2 class="text-3xl font-semibold text-white mt-20">Projets en Cours</h2>
+      <div class="mt-6 text-lg text-gray-300 max-w-2xl mx-auto">
+        <p>
+          Actuellement, je travaille sur plusieurs projets passionnants, allant de la création de sites web interactifs à la mise en place de solutions numériques innovantes. 
+        </p>
+      </div>
+      <div class="mt-6 flex justify-center gap-10 text-white">
+        <div class="flex flex-col items-center">
+          <div class="text-4xl">🔧</div>
+          <p class="mt-2">Développement Web</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="text-4xl">⚙️</div>
+          <p class="mt-2">Automatisation</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
 </BasicLayout>
+

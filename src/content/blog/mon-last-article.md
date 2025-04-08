@@ -1,7 +1,7 @@
 ---
 title: 'Site streaming'
 description: 'Création d un site de streaming fictif dans le thème de club ilico'
-pubDate: 'Avr 28 2024'
+pubDate: 'Apr 28 2024'
 heroImage: '/sae203.png'
 ---
 
