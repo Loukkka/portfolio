@@ -23,7 +23,7 @@ La première étape a été de concevoir les interfaces du site web, de détaill
 ### Partie 1 : Création de la maquette
 La première étape du projet a été la création d'une maquette fonctionnelle à l'aide de **Figma**. Nous avons d'abord créé des personas pour identifier notre public cible, puis effectué un benchmark pour mieux comprendre les besoins des utilisateurs par rapport aux sites concurrents. En suivant cette analyse, nous avons intégré des fonctionnalités innovantes pour notre site web et avons créé un prototype complet de la boutique en ligne.
 
-![Maquette Figma Basic-Fit](/basic1.png)
+![Maquette Figma Basic-Fit](/portfolio/basic1.png)
 
 ### Partie 2 : Choix de l'hébergement et gestion du site
 Pour ce projet, j'ai choisi d'héberger le site web sur **WordPress** en utilisant le thème **Uncode**, ce qui m'a permis de créer un site moderne et ergonomique. Plusieurs extensions ont été intégrées pour enrichir l'expérience utilisateur, notamment :
@@ -33,12 +33,12 @@ Pour ce projet, j'ai choisi d'héberger le site web sur **WordPress** en utilisa
 
 Ces outils ont permis de concevoir un site fonctionnel, répondant aux attentes des utilisateurs.
 
-![Header](/basic2.png)
+![Header](/portfolio/basic2.png)
 
 ### Partie 3 : Intégration du back-office
 Le projet a également impliqué l'intégration d'un **back-office performant** sur WordPress, permettant de gérer efficacement l'ensemble des activités du site. Grâce à ce tableau de bord, j'ai pu analyser les commandes effectuées via **WooCommerce**, suivre les interactions des utilisateurs et gérer le contenu du site de manière optimisée.
 
-![Wordpress](/basic3.png)
+![Wordpress](/portfolio/basic3.png)
 
 ### Résultat final
 Le site web développé est complet et fonctionnel, offrant une expérience utilisateur de qualité tout en facilitant la gestion du contenu et des performances en back-office. Ce projet m'a permis de mettre en œuvre des compétences en gestion de contenu, conception d'interface et gestion d'hébergement.
