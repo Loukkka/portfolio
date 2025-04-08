@@ -32,7 +32,7 @@ Le projet s'est déroulé en plusieurs étapes : conception de maquettes, dével
 La première étape a été la conception d'une **maquette sur Figma** pour structurer le site et son ergonomie.  
 Cette phase a permis de définir l'organisation des contenus et des fonctionnalités avant le développement.
 
-![Maquette Figma](/partie1ilico.png)
+![Maquette Figma](/portfolio/partie1ilico.png)
 
 ---
 
@@ -44,7 +44,7 @@ Le développement s'est déroulé en plusieurs **itérations**, incluant :
 - La gestion des interactions entre le **back-office** (ajout de films, gestion des utilisateurs) et le **front-office** (interface utilisateur).
 - L'implémentation de **JavaScript et PHP** pour dynamiser le site.
 
-![Développement du site](/partie2ilico.png)
+![Développement du site](/portfolio/partie2ilico.png)
 
 ---
 
@@ -53,7 +53,7 @@ Le développement s'est déroulé en plusieurs **itérations**, incluant :
 Une amélioration graphique a été réalisée, inspirée du site **Club Illico**.  
 L'accent a été mis sur l'optimisation du **design avec CSS et HTML** pour assurer une **expérience utilisateur fluide et cohérente**.
 
-![Intégration et design](/partie3ilico.png)
+![Intégration et design](/portfolio/partie3ilico.png)
 
 ---
 
@@ -63,7 +63,7 @@ Le site a été hébergé avec **Windows PowerShell**.
 Des mesures de **sécurisation** ont été appliquées pour protéger les données et garantir la stabilité du service.  
 Un **rapport d'analyse** a été généré pour suivre les performances et la sécurité du site.
 
-![Hébergement et sécurité](/partie4ilico.png)
+![Hébergement et sécurité](/portfolio/partie4ilico.png)
 
 ---
 

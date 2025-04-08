@@ -40,7 +40,7 @@ Pour cette vidéo sur le gaspillage alimentaire, nous avons développé un scrip
 
 Le script a été conçu pour être à la fois informatif et engageant, en utilisant une narration simple mais efficace, tout en restant fidèle aux faits et aux chiffres essentiels du sujet.
 
-![Wordpress](/waitrose1.png)
+![Wordpress](/portfolio/waitrose1.png)
 
 
 ---
