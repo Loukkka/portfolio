@@ -2,7 +2,7 @@
 title: 'Site Marchand'
 description: 'Création d un site marchand fictif pour l enseigne basic-fit '
 pubDate: 'Nov 19 2024'
-heroImage: '/basicfit.png'
+heroImage: '/portfolio/basicfit.png'
 ---
 
 # SAE 301

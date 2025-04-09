@@ -2,7 +2,7 @@
 title: 'Stop Motion'
 description: 'J ai réalisé un pour un projet avec pour thème le gaspillage alimentaire avec le pour thème l entreprise Waitrose'
 pubDate: 'Jan 14 2024'
-heroImage: '/waitroseback.png'
+heroImage: '/portfolio/waitroseback.png'
 ---
 
 # Création d'une vidéo en stop-motion sur le gaspillage alimentaire

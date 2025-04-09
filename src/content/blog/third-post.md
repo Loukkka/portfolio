@@ -2,7 +2,7 @@
 title: 'Usage Expérience'
 description: 'J ai crée a partir d avis utilisateur et d interview et une audit de refont pour l application du futuroscope'
 pubDate: 'Mar 21 2024'
-heroImage: '/futur.png'
+heroImage: '/portfolio/futur.png'
 ---
 
 # Refonte de l'application mobile du Futuroscope
